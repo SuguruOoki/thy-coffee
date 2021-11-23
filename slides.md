@@ -21,13 +21,13 @@ drawings:
   persist: false
 ---
 
-# Welcome to Slidev
+# thy Coffee
 
-Presentation slides for developers
+素敵な時間の架け橋に。
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+    わたしたちが大事にしていること <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
@@ -41,28 +41,28 @@ Presentation slides for developers
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
 
-# What is Slidev?
+# わたしたちが大事にしていること
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+thy（ザイ）とは、古い英語表現で「あなたの」という意味。<br>
+私たちは「あなたの素敵な時間の架け橋」になりたいと願っています。<br>
 
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+農家の方々が作ってくださるコーヒー豆をさらに美味しくすることはできません。<br>
+私たちができることは、その美味しさを、カップ一杯に出来上がる様々な工程の中でいかに保つことができるか。<br>
+そして、生産者と皆様を、焙煎を通し届けることで少しでもコーヒーの時間を豊かにすることです。<br><br>
+
+産地や農家ごとに表情を変えるスペシャリティコーヒーを、旬や季節によって皆様にお届けします。<br>
+少し早起きした朝に、大切な人とのひと時に、毎日のルーティンに。<br>
+いつものコーヒーに、私たちのコーヒーがあったらこれ以上嬉しいことはありません。
+
+<br>
+<br>
+
+Read more about [Instagram](https://www.instagram.com/thy_coffee/)
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -89,12 +89,12 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 ### Keyboard Shortcuts
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
+|                                                     |                             |
+| --------------------------------------------------- | --------------------------- |
+| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+| <kbd>up</kbd>                                       | previous slide              |
+| <kbd>down</kbd>                                     | next slide                  |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
@@ -123,7 +123,7 @@ interface User {
 
 function updateUser(id: number, update: User) {
   const user = getUser(id)
-  const newUser = {...user, ...update}  
+  const newUser = {...user, ...update}
   saveUser(id, newUser)
 }
 ```
